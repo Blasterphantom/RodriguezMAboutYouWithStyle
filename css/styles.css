@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "ComputerFont";
+    src: url(/css/Source_Code_Pro/static/SourceCodePro-Light.ttf);
+}
+
+.block{
+    float:left;
+    width:50%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.box-1{
+    background-color: #050404;
+    color: #ffffff;
+
+    border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+
+    border: 5px red solid;
+
+    padding:20px;
+
+    margin-top:20px;
+    margin:20px 0;
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-align: center;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+}
+
+.box-1 p{
+    text-align: center;
+}
+
+.box-2{
+    border:3px dotted #ccc;
+    padding:20px;
+    margin: 20px 0;
+    margin-top: 240px;
+    text-align: left;
+}
+
+.box-2 h1{
+    font-family: 'ComputerFont';
+}
+
+.box-2 p{
+    font-family: 'ComputerFont';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.categories-1{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.categories-2{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.container{
+    background-color: lightskyblue;
+}
+
+img{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.paragraph-1 article{
+    font-size: 20;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.paragraph-1 p{
+    text-align: center;
+}
